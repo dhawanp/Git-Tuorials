@@ -50,3 +50,8 @@ $ git clone git@github.com:dhawanp/GitTutts.git .(this will create a cloned repo
 
 touch .gitignore will create a file named "gitignore" in the folder you want  and we can add the names of any other files we want to ignore and when any changes
 are made to those files which we have added to gitignore will not be pushed to staging area at all
+
+git commit -a -m "this is direct commit" will directly commit the code of tracked files directly without passing them to staging area. But untracked files will not be
+commited as they are untracked
+
+git rm --cached jarvis.txt(will untrack a particular file)
