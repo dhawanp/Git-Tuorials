@@ -1,0 +1,50 @@
+Easily recovers file
+if multiple ppl are working on the same code base and if someone commited some code then wecan easily identify who 
+commited faulty code
+we can rollback to previously working state
+
+working directory
+staging area
+git directory
+
+
+1.).1.).1).git status
+
+git init
+
+first statging then commit
+
+git add .   ---> to throw the code in stage/staging area
+
+git commit -m "version1"
+
+git log
+
+git config --global user.name "jangal mangal"
+
+git config --global user.email "abc.def@gmail.com"
+
+git show 99a5c04e047a2564ee84b2d84f7ee45e7a7b78f7(Hash String)
+
+git show 99a5c04e047a2564ee84b2d84f7ee45e7a7b78f7 > newfilename.txt(a "newfilename.txt" will be ceated in the directory with changes commited)
+
+ssh-keygen -t ed25519 -C "prateekmitel@yahoo.com"
+
+$ git remote add origin git@github.com:dhawanp/GitTutts.git
+
+$ git push -u origin master
+
+$ git diff jarvis.txt
+
+$ git diff --staged jarvis.txt (To view the diff for staged fie when git add . has been performed on the file to throw
+it into the staging area)
+
+once you make changes to some file and save it but we have not yet commited it , just reached to staging process , then we
+can undo the changes by simply reset and checkout commands of git by the following commands-:
+$ git reset jarvis.txt
+$ git checkout jarvis.txt
+
+git clone git@github.com:dhawanp/GitTutts.git
+
+$ git clone git@github.com:dhawanp/GitTutts.git .(this will create a cloned repository in the place where we will use git bashe here)
+
