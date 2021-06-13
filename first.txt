@@ -1,2 +1,4 @@
 this is my first code file
 #1 now modified this and want to add this again to staging area
+asdasdassd
+1234567890

@@ -34,9 +34,9 @@ $ git remote add origin git@github.com:dhawanp/GitTutts.git
 
 $ git push -u origin master
 
-$ git diff jarvis.txt
+$ git diff jarvis.txt;It compares working directory with staging area
 
-$ git diff --staged jarvis.txt (To view the diff for staged fie when git add . has been performed on the file to throw
+$ git diff --staged jarvis.txt (To view the diff for staged file when git add . has been performed on the file to throw
 it into the staging area)
 
 once you make changes to some file and save it but we have not yet commited it , just reached to staging process , then we
@@ -48,3 +48,5 @@ git clone git@github.com:dhawanp/GitTutts.git
 
 $ git clone git@github.com:dhawanp/GitTutts.git .(this will create a cloned repository in the place where we will use git bashe here)
 
+touch .gitignore will create a file named "gitignore" in the folder you want  and we can add the names of any other files we want to ignore and when any changes
+are made to those files which we have added to gitignore will not be pushed to staging area at all
